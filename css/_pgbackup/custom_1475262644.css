@@ -1,0 +1,219 @@
+
+
+body
+{
+    -webkit-animation-duration: 0.1s;
+    -webkit-animation-name: fontfix;
+    -webkit-animation-iteration-count: 1;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-delay: 0.1s;
+}
+
+@-webkit-keyframes fontfix{
+  from { opacity: 1; }
+  to { opacity: 1; }
+}
+
+html, body
+{
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    background-color: #fff;
+    min-height: 1200px;
+    position: relative;
+    -webkit-font-smoothing: antialiased;
+}
+
+.logo1
+{
+    width: 174px;
+    height: 179px;
+    background-image: url('../images/logo1.png');
+    position: absolute;
+    top: 72px;
+    left: 460px;
+    z-index: 1000;
+}
+
+#top
+{
+    position: relative;
+    height: 185px;
+    background-color: #fff;
+    background-image: url('../images/top-bg.jpg');
+    background-repeat: repeat-x;
+}
+
+.title-left
+{
+    padding: 40px 0 38px;
+    height: 140px;
+    float: left;
+}
+
+/* MAMAK BELEDİYESİ: */
+
+.title-left h1
+{
+    font-family: Oswald-Bold;
+    font-size: 36px;
+    color: #4A4A4A;
+    letter-spacing: 1px;
+    line-height: 40px;
+    margin: 0;
+}
+
+/* RESMİ İNTERNET SİTES: */
+
+.title-left h2
+{
+    font-family: Oswald-Regular;
+    font-size: 16px;
+    color: #979797;
+    letter-spacing: 7.3px;
+    margin: 0;
+}
+
+.title-right
+{
+    padding: 0;
+    height: 140px;
+    float: right;
+}
+
+.title-right h2
+{
+    font-family: Oswald-Bold;
+    font-size: 18px;
+    color: #EE7B00;
+    letter-spacing: 0px;
+    margin: 0;
+    float: left;
+}
+
+.title-right h2>span
+{
+    font-family: Oswald-Bold;
+    font-size: 18px;
+    color: #196032;
+    letter-spacing: 0px;
+    margin: 0 0 0 10px;
+}
+
+.title-right span
+{
+    font-family: Oswald-Regular;
+    font-size: 16px;
+    color: #979797;
+    margin: 0 0 0 25px;
+    float: right;
+}
+
+.title-right i.fa-facebook-square
+{
+    font-size: 24px;
+    color: #475993;
+}
+
+.title-right i.fa-twitter-square
+{
+    font-size: 24px;
+    color: #88B9EE;
+}
+
+.title-right input
+{
+    width: 365px;
+    height: 32px;
+    background: #EFEAD7;
+    border: 0;
+}
+
+.right1
+{
+    margin: 40px 0 22px 0;
+    float: right;
+}
+
+.right2
+{
+    clear: both;
+}
+
+.right2 form
+{
+    float: left;
+    margin-left: 30px;
+}
+
+.navbar
+{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 45px;
+    min-height: 45px;
+    background: #F1F1F1;
+    margin: 0;
+}
+
+#main
+{
+    background-color: #fff;
+}
+
+#bottom
+{
+}
+
+#bottom-gray
+{
+    background-color: #f1f1f1;
+    width: 100%;
+    height: 100px;
+    min-height: 100px;
+    margin-bottom: 70px;
+}
+
+#sticky-bar
+{
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+}
+
+#sb-baskan
+{
+    width: 175px;
+    height: 226px;
+    background-image: url('../images/baskan.png');
+    bottom: 0px;
+    position: absolute;
+}
+
+#sb-bar
+{
+    background-image: linear-gradient(-180deg, rgba(26,94,55,0.75) 0%, rgba(11,46,24,0.75) 100%);
+    height: 70px;
+    min-height: 70px;
+}
+
+.no-gutter > [class*='col-']
+{
+    padding-right: 0;
+    padding-left: 0;
+}
+
+.full-height
+{
+    height: 100%;
+}
+
+#header
+{
+    background-image: url('../images/top-bg.jpg');
+    height: 140px;
+}
+
